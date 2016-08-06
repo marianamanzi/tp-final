@@ -1,0 +1,128 @@
+*{
+	box-sizign:border-box;
+}
+
+p{
+	font-family: 'Raleway';
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway';
+}
+
+.contenedor {
+	max-width: 900px;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+}
+nav .logo {
+	display: inline-block;
+	height: 20px;
+
+}
+nav {
+	padding: 10px;
+}
+.menu li {
+	display: inline-block;
+	pxadding: 5px;
+	color: gray;
+	list-style: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: right;
+
+
+}
+.menu {
+	display: inline;
+}
+header {
+	background: url(../img/indexbanner-bg3.jpg);
+	height: 500px;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.section1{
+margin-top: -50px;
+width: 800px;
+height: auto;	
+}
+
+.form{
+width: 100%;
+}
+.text{
+	width: 80%;
+	height: 54px;
+	border-style: none;
+	color: white;
+	font-family:'Raleway';
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin:0px;
+}
+.botonsearch {
+	position: relative;
+	margin-left: -33px;
+	border-radius: 1px;
+	height: 54px;
+	width: 80px;
+	border-style: none;
+	margin: 0px;
+	background-color: #00B1F3;
+	color: white;
+	font-family:'Raleway';
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.contenido{
+	width: 22%;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	background-color: red;
+}
+
+.contenido img{
+	width: 80px;
+	padding: 5px;
+}
+
+.contenido h3{
+	font-size: 20px;
+	margin: 10px;
+
+}
+
+.contenido p{
+	font-size: 12px;
+	padding: 5px;
+}
+
+.app1{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	background-color:red;
+}
+
+.app2{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	background-color:blue;
+}
+.app3{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	background-color:green;
+}
