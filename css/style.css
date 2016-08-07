@@ -27,18 +27,18 @@ nav {
 }
 .menu li {
 	display: inline-block;
-	pxadding: 5px;
+	padding: 5px;
 	color: gray;
 	list-style: none;
 	text-decoration: none;
 	text-transform: uppercase;
 	float: right;
-
-
 }
+
 .menu {
 	display: inline;
 }
+
 header {
 	background: url(../img/indexbanner-bg3.jpg);
 	height: 500px;
@@ -46,13 +46,41 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-
+/*
 .section1{
 margin-top: -50px;
 width: 800px;
 height: auto;	
+} */
+
+form .form {
+	height: 80px;
+	margin-top: -63px;
+	max-width: 900px;
+	margin-left: 35px;
 }
 
+#completar {
+	margin-right: 0px;
+	width: 700px;
+	height: 50px;
+	font-family:'Raleway';
+}
+.botonsearch {
+	height: 53px;
+	width: 105px;
+	border-style: none;
+	margin-top: -2px;
+	margin-left: -4px;
+	background-color: #00B1F3;
+	color: white;
+	font-family:'Raleway';
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/*
 .form{
 width: 100%;
 }
@@ -82,7 +110,7 @@ width: 100%;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
-
+*/
 .contenido{
 	width: 22%;
 	text-align: center;
