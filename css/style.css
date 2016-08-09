@@ -107,42 +107,37 @@ margin-top: -25px;
 
 .contenedor-iconos{
 margin:50px auto;
-
 }
 	
 	.contenido-icon{
-		width: 22%;
-		text-align: center;
-		display: inline-block;
-		margin: 10px;
-
+	width: 22%;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
 	}
 
 	.contenido-icon img{
-		width: 80px;
-		padding: 5px;
+	width: 80px;
+	padding: 5px;
 	}
 
 	.contenido-icon h3{
-		font-size: 12px;
-		margin: 10px;
-		color: #434343;
-text-transform: uppercase;
-letter-spacing: 1px;
-font-weight: 600;
+	font-size: 12px;
+	margin: 10px;
+	color: #434343;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
 	}
 
 	.contenido-icon p{
-		font-size: 12px;
-		padding: 5px;
-		line-height: 15px;
-		letter-spacing: 1px;
-		color: #626262;
-		
+	font-size: 12px;
+	padding: 5px;
+	line-height: 15px;
+	letter-spacing: 1px;
+	color: #626262;
 	}
 
-
-		
 .tittle{
 width: 80%;
 text-align: center;
@@ -180,10 +175,10 @@ margin: 50px  0 auto;
 } 
 
 .section3-flex{
-	margin-top: 80px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
+margin-top: 80px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
 
 }
 
@@ -223,11 +218,9 @@ margin: 50px  0 auto;
 			.conten4 h5{
 			width: 50%;
 			font-size: 30px;
-			display: inline-block;
 			text-align: right;
-
-
 			}
+	 		
 	 		.content4 p{
 	 		display:inline-block;
 	 		width: 70%;
@@ -237,16 +230,16 @@ margin: 50px  0 auto;
 	 		letter-spacing: 1px;
 	 		}
 
-				.content5{
-		 		width: 35%;
-	 			display: flex;
-	 			flex-direction: column;
+					.content5{
+			 		width: 35%;
+		 			display: flex;
+		 			flex-direction: column;
 					}	
 				 	.content5 span {
-			margin: 50px 0 50px 0;
-			display:flex;
-			padding: 10px 30px 0 0;
-			justify-content: flex-end;
+					margin: 50px 0 50px 0;
+					display:flex;
+					padding: 10px 30px 0 0;
+					justify-content: flex-end;
 				 	}
 
 				 	.content5 img{
@@ -268,7 +261,7 @@ margin: 50px  0 auto;
 			 		display:inline-block;
 			 		width: 70%;
 			 		display: inline-block;
-			 		text-align: right;
+			 		text-align: left;
 			 		font-size: 12px;
 			 		letter-spacing: 1px;
 			 		}
