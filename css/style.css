@@ -309,7 +309,25 @@ margin-top: -100px;
 	text-align: center;
 	}
 
-	.content-section5 p{
+	.content-section5 p:nth-child(1){
+	font-size: 60px;
+	line-height: 40px;
+	color: #1C1C1C;
+	text-align: center;
+	font-weight: 500;
+	font-family:'Raleway';
+	}
+
+	.content-section5  p:nth-child(2){
+	font-size: 60px;
+	line-height: 40px;
+	color: #1C1C1C;
+	text-align: center;
+	font-weight: 500;
+	font-family:'Raleway';
+	}
+
+	.content-section5  p:nth-child(3){
 	font-size: 60px;
 	line-height: 40px;
 	color: #1C1C1C;
@@ -328,14 +346,6 @@ margin-top: -100px;
 	margin:20px 0 20px 0;
 	}
 	
-	.content-section5 p:nth-child(3n){
-	font-size: 10px;
-	line-height: 40px;
-	color: #1C1C1C;
-	text-align: center;
-	font-weight: 500;
-	font-family:'Raleway';
-	}
 
 
 
@@ -357,3 +367,21 @@ margin-top: -100px;
 	text-align: center;
   	margin-top: 30px;
     }
+
+
+.section6{
+display: flex;
+justify-content: center;
+width: 100%;
+padding:80px;
+margin-top: 80px;
+background-color: #142E3F;
+}
+
+.section7{
+display: flex;
+justify-content: center;
+width: 100%;
+padding:20px;
+background-color: #091722;
+}
