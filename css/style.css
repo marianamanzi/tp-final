@@ -51,7 +51,7 @@ nav .logo {
 		color: #8A8A8A;			
 		}
 		.menu a:hover{
-		color: #00AEFF;			
+		color: #0B8FF4;			
 		}
 
 
@@ -101,16 +101,24 @@ margin-top: -25px;
 	}
 
 	.botonsearch:hover{
-	background: #1260E0;
+	background: #0B8FF4;
 	}
 
 
 .contenedor-iconos{
 margin:50px auto;
 }
+
+.contenedor-iconos span{
+color:#DDDDDD;
+padding-bottom: 50px;
+letter-spacing: 2px;
+font-weight: 600;
+display: inline-block;
+}
 	
 	.contenido-icon{
-	width: 22%;
+	width: 20%;
 	text-align: center;
 	display: inline-block;
 	margin: 10px;
@@ -286,9 +294,9 @@ margin-top: -100px;
 		}
 
 	.content-section5 div{
-		width: 22%;
+		width: 23%;
 		height: auto;
-		margin: 10px;
+		margin: 5px;
 		padding: 30px;
 		display: inline-block;
 		background-color:white;
@@ -305,12 +313,22 @@ margin-top: -100px;
 	text-align: center;
 	}
 
+	.content-section5 hr{
+	margin:40px 0 20px 0;
+	}
+
+	.content-section5 span{
+	font-size: 12px;
+	color: #626262;
+	font-family:'Raleway';
+	}
+
 	.content-section5 p:nth-child(1){
 	font-size: 60px;
 	line-height: 40px;
 	color: #1C1C1C;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 900;
 	font-family:'Raleway';
 	}
 
@@ -322,26 +340,43 @@ margin-top: -100px;
 	font-weight: 500;
 	font-family:'Raleway';
 	}
-
 	.content-section5  p:nth-child(3){
-	font-size: 60px;
-	line-height: 40px;
 	color: #1C1C1C;
 	text-align: center;
-	font-weight: 500;
 	font-family:'Raleway';
 	}
 
-	.content-section5 span{
-	font-size: 20px;
-	color: #626262;
-	font-family:'Raleway';
+	.content-section5 ul li{
+  	padding: 0 5px 0 5px;
+  	}
+	.content-section5 ul li{
+	font-family:'Raleway'; 	
+	padding: 20px 0 0 0;
+	font-size: 12px;
+	font-weight: 600;
 	}
 	
-	.content-section5 hr{
-	margin:20px 0 20px 0;
+
+	.content-section5 li span{
+	font-family:'Raleway'; 	
+	float: right;
+	font-size: 12px;
+	color: #00B1F3;
 	}
-	
+	.content-section5 div:nth-child(1) li > span{
+	color: #00B1F3;
+	}
+
+	.content-section5 div:nth-child(2) li > span{
+	color: #FFCC00;
+	}
+	.content-section5 div:nth-child(3) li > span{
+	color: orange;
+	}
+	.content-section5 div:nth-child(4) li > span{
+	color: red;
+	}
+
 	.content-section5 a{
 	width: 100%;
 	border-style: none;
@@ -352,15 +387,17 @@ margin-top: -100px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	transition: .2s;
-	border-radius: 5px;
+	border-radius: 2px;
 	font-size: 10px;
 	padding: 10px;
 	display: block;
 	text-align: center;
   	margin-top: 30px;
     }
-
-
+	.content-section5 a:hover{
+	background-color: #0B8FF4;
+	}
+	
 .section6{
 display: flex;
 justify-content: center;
