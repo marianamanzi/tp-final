@@ -185,6 +185,7 @@ flex-direction: row;
  		.img-phone{
  		width: 30%;
  		height: auto;
+ 		margin: 0 20px 0 20px;
  		}
  		.img-phone img{
 		width: 100%;
@@ -201,15 +202,12 @@ flex-direction: row;
 		 	.content4 span {
 			margin: 50px 0 50px 0;
 			display:flex;
-			padding: 10px 30px 0 0;
-			justify-content: flex-end;
-
+					
 		 	}
 
 		 	.content4 img{
 			width: 50px;
 			height: auto;
-			margin:0 20px;
 			float: right;
 
 			
@@ -238,14 +236,12 @@ flex-direction: row;
 				 	.content5 span {
 					margin: 50px 0 50px 0;
 					display:flex;
-					padding: 10px 30px 0 0;
 					justify-content: flex-end;
 				 	}
 
 				 	.content5 img{
 					width: 50px;
 					height: auto;
-					margin:0 20px;
 					float: left;
 					
 				 	}
@@ -346,10 +342,6 @@ margin-top: -100px;
 	margin:20px 0 20px 0;
 	}
 	
-
-
-
-
 	.content-section5 a{
 	width: 100%;
 	border-style: none;
